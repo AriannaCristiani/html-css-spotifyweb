@@ -24,6 +24,10 @@ img {
     max-width: 100%;
 }
 
+html {
+    font-family: 'Montserrat',  sans-serif;
+}
+
 
 /* main-container */
 
@@ -43,13 +47,6 @@ img {
     position: relative;
 }
 
-.side-bar {
-    width: 250px;
-    min-height: 100vh;
-    background-color: rgba(0, 0, 0, 1);
-    position: absolute;
-    
-}
 
 .nav-header {
     width: 100%;
@@ -69,6 +66,44 @@ img {
     font-size: 12px;
     padding: 10px 30px 10px 30px;  
 }
+
+/* sidebar */
+
+.side-bar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    width: 170px;
+}
+
+.side-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.side-icon {
+    width: 30px;
+    color: rgba(210, 210, 210, 1);
+    align-items: center;
+}
+
+.favourite {
+    background-color:rgba(210, 210, 210, 1) ;
+    color: rgba(0, 0, 0, 1);
+    font-size: 50px;
+    padding: 0px 15px;
+}
+
+
 
 
 
