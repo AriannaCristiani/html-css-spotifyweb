@@ -19,10 +19,22 @@ a {
 ul,
 ol {
     list-style: none;
-    padding: 15px 0px;
+    
 }
 
 
 img {
     max-width: 100%;
+}
+
+
+/* main-container */
+
+.main-container {
+    max-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(20, 25, 34, 1);
+
 }
