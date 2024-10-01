@@ -1,0 +1,28 @@
+/* reset */
+:root {
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 15px 0px;
+}
+
+
+img {
+    max-width: 100%;
+}
