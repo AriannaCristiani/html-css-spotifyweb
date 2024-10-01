@@ -1,7 +1,4 @@
 /* reset */
-:root {
-    
-}
 
 * {
     box-sizing: border-box;
@@ -31,10 +28,41 @@ img {
 /* main-container */
 
 .main-container {
-    max-height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: rgba(20, 25, 34, 1);
 
+}
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.side-bar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+
+/* media queries */
+
+/* tablet */
+
+@media (max-width: 991.99px) {
+
+}
+
+/* mobile */
+
+@media (max-width:767.99px) {
+
+    .side-bar {
+        width: 50px;
+    }
 }
