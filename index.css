@@ -88,6 +88,28 @@ body {
     padding: 10px 30px 10px 30px;  
 }
 
+/* main-content */
+
+/* menu on top */
+
+.content_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12px;
+    width: 100%;
+    color: var(--light-gray);
+    padding: 15px 0px;
+}
+
+.green-bottom{
+    border-bottom: solid 3px var(--brand-color);
+    width: 40px;
+    margin-left: 15px;
+    border-radius: 999px;
+}
+
 /* sidebar */
 
 .sidebar {
@@ -141,8 +163,9 @@ body {
    
 }
 
-.playlist_name > * {
-    padding: 20px 10px;
+.playlist_name > * li {
+    padding: 10px 10px;
+    font-size: 15px;
 }
 
 .user {
@@ -277,6 +300,8 @@ button {
 
 @media (max-width: 991.99px) {
 
+    
+
 }
 
 /* mobile */
@@ -286,4 +311,7 @@ button {
     .sidebar {
         width: 50px;
     }
+
+    
+    
 }
