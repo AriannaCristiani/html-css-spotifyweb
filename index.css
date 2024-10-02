@@ -129,11 +129,20 @@ body {
    
 }
 
+.playlist {
+    padding: 20px 10px;
+}
+
 .favourite {
     background-color:rgba(210, 210, 210, 1) ;
     color: rgba(0, 0, 0, 1);
     font-size: 30px;
     padding: 0px 10px;
+   
+}
+
+.playlist_name > * {
+    padding: 20px 10px;
 }
 
 .user {
