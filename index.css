@@ -69,6 +69,7 @@ body {
     position: relative;
 }
 
+/* navbar */
 
 .navbar {
     width: 100%;
@@ -98,9 +99,8 @@ body {
     
 }
 
-
 .logo {
-    width: 170px;
+    width: 150px;
 }
 
 .side-menu {
@@ -124,6 +124,22 @@ body {
     padding: 0px 15px;
 }
 
+.user {
+    background-color: gray;
+    border-radius: 100%;
+    width: 20px;
+}
+
+.download {
+    width: 15px;
+}
+
+.border {
+    border-top: 1px solid var(--light-gray);
+    width: 200px;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
 
 
 
