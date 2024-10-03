@@ -133,19 +133,32 @@ body {
 
 }
 
+
 .card {
     width: calc(100% / 6);
     font-size: 10px;
     text-align: center;
     padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.circle {
+    border-radius: 50%;
 }
 
 .subtitle {
     opacity: 50%;
 }
 
+.subtitle-title {
+    opacity: 50%;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
 .section-title {
-    padding: 10px 10px;
+    padding: 0px 10px;
+    margin-top: 35px;
 }
 
 .card > h3 {
@@ -176,6 +189,10 @@ body {
 .logo {
     width: 150px;
     padding: 20px 10px;
+}
+
+.logo-sm {
+    display: none;
 }
 
 .menu-home {
@@ -343,14 +360,9 @@ button {
 
 /* descktop */
 
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
 
-    .logo-sm {
-        display: none;
-    }
-    .logo {
-        display: block;
-    }
+  
 
 }
 
@@ -359,12 +371,9 @@ button {
 
 @media (max-width: 768.99px) {
 
-    .logo-sm {
-        display: none;
-    }
-    .logo {
-        display: block;
-    }
+   
+  
+    
     
 
 }
