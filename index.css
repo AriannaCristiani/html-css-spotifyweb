@@ -144,6 +144,11 @@ body {
     gap: 15px;
 }
 
+.menu-home a {
+    display: flex;
+    align-items: center;
+}
+
 
 .sidebar_icon {
     width: 25px;
@@ -191,8 +196,6 @@ body {
     margin-top: 400px;
     padding: 10px 10px;
 }
-
-
 
 
 /* aside 
@@ -296,10 +299,30 @@ button {
 
 /* media queries */
 
+/* descktop */
+
+@media (max-width: 1350px) {
+
+    .logo-sm {
+        display: none;
+    }
+    .logo {
+        display: block;
+    }
+
+}
+
 /* tablet */
 
-@media (max-width: 991.99px) {
 
+@media (max-width: 768.99px) {
+
+    .logo-sm {
+        display: none;
+    }
+    .logo {
+        display: block;
+    }
     
 
 }
@@ -312,6 +335,34 @@ button {
         width: 50px;
     }
 
+    .text {
+        display: none;
+    }
+
+    .logo-sm {
+        display: block;
+        width: 70px;
+        padding: 10px 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .border {
+        display: none;
+    }
+
+    .menu-home a {
+        justify-content: center;
+        margin: 0;
+
+    }
+
+
+    .sidebar_icon {
+        margin: 0;
+    }
     
     
 }
