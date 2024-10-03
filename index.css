@@ -145,6 +145,11 @@ body {
 }
 
 
+.hover:hover {
+    opacity: 50%;
+}
+
+
 .circle {
     border-radius: 50%;
 }
@@ -438,7 +443,7 @@ button {
 
     .card {
         width: calc(100% /2 );
-        
+
        }
 
 
